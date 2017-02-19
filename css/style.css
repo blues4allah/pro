@@ -1,0 +1,166 @@
+#nav {
+	display: flex;
+    padding: 25px 30px 0 30px;
+    font-family: georgia;
+    font-size: 18px;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+#home {
+	align-self: flex-start;
+	font-family: georgia;
+}
+
+#about {
+	align-self: flex-end;
+	font-family: georgia;
+	margin: 0 0 0 auto;
+}
+
+iframe {
+	margin-bottom: 4px;
+}
+
+.full_video {
+	max-width: 1080px;
+	width: 100%;
+}
+
+.half_video {
+	max-width: 538px;
+	width: 100%;
+}
+
+.video_bg {
+	background-color: #1e232d;
+	width: 100%;
+	height: auto;
+}
+
+#header {
+	max-width: 500px;
+	text-align: center;
+	margin: 0 auto 0 auto;
+}
+
+#container {
+	max-width: 1080px;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 100px;
+	overflow: hidden;
+}
+
+.section {
+	margin: 0 0 60px 0;
+}
+
+.row {
+	text-align:center;
+	display: flex;
+	width: 100%;
+	margin-bottom: -2px;
+}
+
+.row img {
+	width: calc(100% - 2px);
+}
+
+.special_img {
+	max-width: 538px;
+}
+
+.clear {
+	clear: both;
+}
+
+h1 {
+	font-family: georgia;
+	text-align: center;
+	font-size: 40px;
+	margin: 80px 0px 0px 0px;
+}
+
+h2 {
+	text-align: center;
+	font-weight: 400;
+	font-size: 32px;
+	margin: 10px 0 60px 0;
+}
+
+h3 {
+	margin: 0 auto 20px auto;
+	font-family: georgia;
+	text-align: center;
+	font-weight: 600;
+	font-size: 20px;
+	text-align: left;
+}
+
+p {
+	font-family: georgia;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+a {
+	text-decoration: none;
+	color: #079485;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #079485;
+}
+
+@media screen and (max-width: 940px) {
+
+}
+
+@media screen and (max-width: 700px) {
+
+	#nav {
+		font-size: 16px;
+		padding: 15px 15px 0 15px;
+	}
+
+	h1 {
+		font-size: 30px;
+		margin: 40px 0px 0px 0px;
+	}
+
+	h2 {
+		font-size: 22px;
+		margin: 10px 0 40px 0;
+
+	}
+
+	.row {
+		flex-direction: column;
+	}
+
+	.row img {
+		width: 100%;
+	}
+		
+	#header {
+		max-width: 375px;
+	}
+
+	#anvato_video {
+		width: 100%;
+	}
+
+	iframe {
+		height: 280px;
+		margin-bottom: -50px;
+	}
+}

@@ -21,7 +21,7 @@
 			<h3>UX Design</h3>
 			<div class="row">
 				<div tag="video_bg">
-					<video controls muted class="half_video" autoplay="autoplay" loop>
+					<video muted class="half_video" autoplay="autoplay" loop>
 					//EDIT: loop="true" is deprecated nowadays
 	  				<source src="video/anvato_mobile.mp4" type="video/mp4" />
 	  				<source src="movie.ogg" type="video/ogg" />
@@ -55,8 +55,15 @@
 		<div class="section">
 			<h3>Photo & Video</h3>
 			<div class="row">
-				<iframe src="https://player.vimeo.com/video/199922230" width="100%" height="606px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-				<p><a href="https://vimeo.com/199922230">
+				<div tag="video_bg">
+					<video muted class="half_video" autoplay="autoplay" loop>
+					//EDIT: loop="true" is deprecated nowadays
+	  				<source src="video/warehouse.mp4" type="video/mp4" />
+	  				<source src="movie.ogg" type="video/ogg" />
+	  				Your browser does not support the video tag.
+					</video>
+					<img class="special_img" src="images/apg.jpg">
+				</div>
 			</div>
 			<div class="row">
 				<a href="#"><img src="images/basketball.jpg"></a>

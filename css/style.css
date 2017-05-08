@@ -36,7 +36,7 @@ iframe {
 	width: 100%;
 	text-align: center;
 	margin: 0 auto 50px auto;
-	padding: 50px 0;
+	padding: 0 0 50px 0;
 	background-color: #158BBA;
 }
 
@@ -45,7 +45,6 @@ iframe {
 	width: 90%;
 	margin-right: auto;
 	margin-left: auto;
-	margin-bottom: 100px;
 	overflow: hidden;
 }
 
@@ -58,6 +57,14 @@ iframe {
 
 .featured-p {
 	color: #fff;
+}
+
+.page-p {
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	max-width: 600px;
+	margin: 20px auto 0 auto;
 }
 
 strong {
@@ -88,8 +95,18 @@ strong {
 	margin-left: 40px;
 }
 
+.page-header {
+	text-align: center;
+}
+
 .featured-img {
 	max-width: 700px;
+}
+
+.page-img img {
+	width: 100%;
+	max-width: 900px;
+	margin: 30px auto 0 auto;
 }
 
 .row .item {
@@ -118,7 +135,8 @@ h1 {
 	text-align: center;
 	font-size: 34px;
 	color: #fff;
-	margin: 20px 0 14px 0;
+	margin: 0 0 14px 0;
+	padding: 40px 0 0 0;
 }
 
 h2 {
@@ -151,11 +169,38 @@ h4 {
 	line-height: 110%;
 }
 
+a:hover h4 {
+	color: #FFC500;
+}
+
+h5 {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	margin: 0 0 40px 0;
+	padding-top: 40px;
+	font-weight: 100;
+}
+
+h5:hover {
+	color: #FFC500;
+}
+
+h6 {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-weight: 600;
+	font-size: 40px;
+	color: #fff;
+	margin: 0 auto;
+	max-width: 600px;
+}
+
 p {
 	font-family: 'Lato', sans-serif;
 	margin: 0;
 	color: grey;
-	display: flex;
 }
 
 a {

@@ -237,15 +237,15 @@ h4 {
 
 	#nav {
 		font-size: 14px;
-		padding: 15px 15px 0 15px;
+		padding: 0 15px;
 	}
 
 	h1 {
-		font-size: 30px;
+		font-size: 22px;
 	}
 
 	h2 {
-		font-size: 22px;
+		font-size: 18px;
 		margin-bottom: -20px;
 	}
 
@@ -260,6 +260,7 @@ h4 {
 
 	h5 {
 		font-size: 16px;
+		margin-bottom: 20px;
 	}
 
 	h6 {
@@ -281,6 +282,14 @@ h4 {
 	.row img {
 		width: 100%;
 		margin-top: 40px;
+	}
+
+	.featured-img img {
+		margin-top: 0;
+	}
+
+	#featured-container {
+		margin-top: 30px;
 	}
 		
 }

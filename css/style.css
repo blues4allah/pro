@@ -57,6 +57,7 @@ iframe {
 
 .featured-p {
 	color: #fff;
+	text-align: left;
 }
 
 .page-p {
@@ -65,6 +66,19 @@ iframe {
 	font-size: 14px;
 	max-width: 600px;
 	margin: 20px auto 0 auto;
+}
+
+.head-p {
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	max-width: 600px;
+	margin: 20px auto 0 auto;
+}
+
+.body {
+	font-size: 16px;
+	text-align: left;
 }
 
 strong {
@@ -103,10 +117,31 @@ strong {
 	max-width: 700px;
 }
 
+.half-img {
+	max-width: 600px;
+}
+
+.half-item {
+	max-width: 400px;
+	margin-left: 40px;
+}
+
+.half-row {
+	margin-bottom: 40px;
+}
+
 .page-img img {
 	width: 100%;
 	max-width: 900px;
 	margin: 30px auto 0 auto;
+}
+
+.logos img {
+	width: 100%;
+	max-width: 800px;
+	margin: 50px auto 100px auto;
+	text-align: center;
+	display: flex;
 }
 
 .row .item {
@@ -114,12 +149,25 @@ strong {
 	width: calc(100% - 50px);
 }
 
-.row p {
-	text-align: left;
+p {
+	font-family: 'Lato', sans-serif;
 	text-decoration: none;
-	font-size: 12px;
-	margin-top: 8px;
+	font-size: 13px;
 	line-height: 140%;
+	color: grey;
+}
+
+.body {
+	font-size: 16px;
+}
+
+.tags {
+	margin-top: 8px;
+	text-align: left;
+}
+
+.center {
+	text-align: center;
 }
 
 .special_img {
@@ -144,7 +192,7 @@ h2 {
 	font-family: 'Lato', sans-serif;
 	text-align: center;
 	font-weight: 600;
-	font-size: 20px;
+	font-size: 18px;
 	text-align: left;
 	color: grey;
 	text-transform: uppercase;
@@ -197,10 +245,16 @@ h6 {
 	max-width: 600px;
 }
 
-p {
-	font-family: 'Lato', sans-serif;
-	margin: 0;
-	color: grey;
+.header-black {
+	color: #000;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.problem {
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 10px;
 }
 
 a {

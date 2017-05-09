@@ -132,13 +132,13 @@ strong {
 
 .page-img img {
 	width: 100%;
-	max-width: 900px;
+	max-width: 800px;
 	margin: 30px auto 0 auto;
 }
 
 .logos img {
 	width: 100%;
-	max-width: 800px;
+	max-width: 700px;
 	margin: 50px auto 100px auto;
 	text-align: center;
 	display: flex;
@@ -344,6 +344,14 @@ h4 {
 
 	#featured-container {
 		margin-top: 30px;
+	}
+
+	.half-item {
+		margin: 0 auto;
+	}
+
+	.header-black {
+		font-size: 26px;
 	}
 		
 }

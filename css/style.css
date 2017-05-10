@@ -23,6 +23,16 @@ body {
 	margin: 0;
 }
 
+#site-logo {
+	margin: 40px auto 10px auto;
+	max-width: 240px;
+}
+
+#site-logo-interior {
+	margin: 40px auto 10px auto;
+	max-width: 140px;
+}
+
 #home {
 	align-self: flex-start;
 	font-family: georgia;
@@ -100,7 +110,7 @@ strong {
 }
 
 .item .box * {
-	width: calc(100% - 50px);
+	width: calc(100% - 40px);
 }
 
 .featured-item {
@@ -125,7 +135,7 @@ strong {
 }
 
 .half-img img {
-	width: calc(100% - 50px);
+	width: calc(100% - 40px);
 }
 
 .half-item {
@@ -213,7 +223,7 @@ h3 {
 	font-family: 'Lato', sans-serif;
 	text-align: left;
 	font-weight: 600;
-	font-size: 20px;
+	font-size: 18px;
 	color: #000;
 	margin: 10px 0 0 0;
 }

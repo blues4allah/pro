@@ -263,6 +263,10 @@ h6 {
 }
 
 .problem {
+	margin-bottom: 40px;
+}
+
+.problem p {
 	font-size: 18px;
 	text-align: center;
 	margin-bottom: 10px;

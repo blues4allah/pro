@@ -47,6 +47,29 @@ iframe {
 	text-align: center;
 	margin: 0 auto 50px auto;
 	padding: 0 0 50px 0;
+}
+
+.onedegreebrand {
+	background-color: #834498;
+}
+
+.home {
+	background-color: #03799c;
+}
+
+.fidelis {
+	background-color: #eaebdb;
+}
+
+.fidelis h6 {
+	color: #03799c;
+}
+
+.onehome {
+	background-color: #03799c;
+}
+
+.onedegree {
 	background-color: #03799c;
 }
 

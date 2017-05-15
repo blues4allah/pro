@@ -73,6 +73,18 @@ iframe {
 	background-color: #03799c;
 }
 
+.apg {
+	background-color: #eaebdb;
+}
+
+.apg h6 {
+	color: #000;
+}
+
+.anvato {
+	background-color: #1e232c;
+}
+
 #container {
 	max-width: 1200px;
 	width: 90%;
@@ -174,9 +186,20 @@ strong {
 	justify-content: center;
 }
 
+
+.page-img {
+	justify-content: center;
+	text-align: center;
+}
 .page-img img {
 	width: 100%;
 	max-width: 800px;
+	margin: 30px auto 0 auto;
+}
+
+.page-img video {
+	width: 100%;
+	max-width: 1,000px;
 	margin: 30px auto 0 auto;
 }
 
@@ -236,7 +259,7 @@ h2 {
 	font-family: 'Lato', sans-serif;
 	text-align: center;
 	font-weight: 600;
-	font-size: 18px;
+	font-size: 20px;
 	text-align: left;
 	color: grey;
 	text-transform: uppercase;
@@ -296,7 +319,7 @@ h6 {
 }
 
 .problem {
-	margin-bottom: 40px;
+	margin: 40px auto 40px auto;
 }
 
 .problem p {

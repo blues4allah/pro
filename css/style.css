@@ -1,5 +1,5 @@
 #nav {
-    font-family: 'Lato', sans-serif;
+    font-family: "futura-pt",sans-serif;
     font-size: 18px;
     z-index: 100;
 
@@ -83,6 +83,14 @@ iframe {
 
 .brisa h6 {
 	color: #67bb00;
+}
+
+.onedegree .page-img video {
+	margin: 0 auto;
+}
+
+.onedegree p {
+	margin-top: 0;
 }
 
 .brisa p {
@@ -303,11 +311,12 @@ strong {
 }
 
 p {
-	font-family: 'Lato', sans-serif;
+	font-family: "futura-pt",sans-serif;
 	text-decoration: none;
-	font-size: 13px;
-	line-height: 140%;
+	font-size: 14px;
+	line-height: 130%;
 	color: grey;
+	font-weight: 400;
 }
 
 .body {
@@ -332,7 +341,7 @@ p {
 }
 
 h1 {
-	font-family: 'Lato', sans-serif;
+	font-family: "futura-pt",sans-serif;
 	text-align: center;
 	font-size: 30px;
 	color: #fff;
@@ -342,7 +351,7 @@ h1 {
 
 h2 {
 	margin: 0 auto 20px auto;
-	font-family: 'Lato', sans-serif;
+	font-family: "futura-pt",sans-serif;
 	text-align: center;
 	font-weight: 600;
 	font-size: 20px;
@@ -352,17 +361,17 @@ h2 {
 }
 
 h3 {
-	font-family: 'Lato', sans-serif;
+	font-family: "futura-pt",sans-serif;
 	text-align: left;
-	font-weight: 600;
-	font-size: 18px;
+	font-weight: 500;
+	font-size: 20px;
 	color: #000;
 	margin: 10px 0 0 0;
 }
 
 h4 {
-	font-family: 'Lato', sans-serif;
-	font-weight: 600;
+	font-family: "gitan-latin",sans-serif;
+	font-weight: 500;
 	font-size: 40px;
 	color: #fff;
 	text-align: left;
@@ -375,7 +384,7 @@ a:hover h4 {
 }
 
 h5 {
-	font-family: 'Lato', sans-serif;
+	font-family: "futura-pt",sans-serif;
 	text-align: center;
 	font-size: 18px;
 	color: #fff;
@@ -389,19 +398,13 @@ h5:hover {
 }
 
 h6 {
-	font-family: 'Lato', sans-serif;
+	font-family: "gitan-latin",sans-serif;
 	text-align: center;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 40px;
 	color: #fff;
 	margin: 0 auto;
 	max-width: 600px;
-}
-
-.problem p {
-	font-size: 18px;
-	text-align: center;
-	margin-bottom: 10px;
 }
 
 a {

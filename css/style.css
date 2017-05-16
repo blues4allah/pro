@@ -77,6 +77,18 @@ iframe {
 	background-color: #03799c;
 }
 
+.brisa {
+	background-color: #e9edcc;
+}
+
+.brisa h6 {
+	color: #67bb00;
+}
+
+.brisa p {
+	color: #67bb00;
+}
+
 .onedegree {
 	background-color: #0c84a5;
 }
@@ -94,10 +106,14 @@ iframe {
 }
 
 .apg {
-	background-color: #eaebdb;
+	background-color: #cfcdc1;
 }
 
 .apg h6 {
+	color: #000;
+}
+
+.apg p {
 	color: #000;
 }
 

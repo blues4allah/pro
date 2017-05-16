@@ -1,5 +1,5 @@
 #nav {
-    font-family: "futura-pt",sans-serif;
+    font-family: "brandon-grotesque",sans-serif;
     font-size: 18px;
     z-index: 100;
 
@@ -311,7 +311,7 @@ strong {
 }
 
 p {
-	font-family: "futura-pt",sans-serif;
+	font-family: "brandon-grotesque",sans-serif;
 	text-decoration: none;
 	font-size: 14px;
 	line-height: 130%;
@@ -341,7 +341,7 @@ p {
 }
 
 h1 {
-	font-family: "futura-pt",sans-serif;
+	font-family: "brandon-grotesque",sans-serif;
 	text-align: center;
 	font-size: 30px;
 	color: #fff;
@@ -351,9 +351,9 @@ h1 {
 
 h2 {
 	margin: 0 auto 20px auto;
-	font-family: "futura-pt",sans-serif;
+	font-family: "brandon-grotesque",sans-serif;
 	text-align: center;
-	font-weight: 600;
+	font-weight: 700;
 	font-size: 20px;
 	text-align: left;
 	color: grey;
@@ -363,10 +363,11 @@ h2 {
 h3 {
 	font-family: "brandon-grotesque",sans-serif;
 	text-align: left;
-	font-weight: 500;
+	font-weight: 600;
 	font-size: 20px;
 	color: #000;
 	margin: 10px 0 0 0;
+	line-height: 120%
 }
 
 h4 {
@@ -384,7 +385,7 @@ a:hover h4 {
 }
 
 h5 {
-	font-family: "futura-pt",sans-serif;
+	font-family: "brandon-grotesque",sans-serif;
 	text-align: center;
 	font-size: 18px;
 	color: #fff;
@@ -405,6 +406,7 @@ h6 {
 	color: #fff;
 	margin: 0 auto;
 	max-width: 600px;
+	line-height: 130%;
 }
 
 a {

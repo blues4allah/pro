@@ -2,6 +2,7 @@
     font-family: "brandon-grotesque",sans-serif;
     font-size: 18px;
     z-index: 100;
+    font-weight: 300;
 
 }
 
@@ -28,9 +29,10 @@ body {
 	max-width: 240px;
 }
 
-#site-logo-interior {
-	margin: 40px auto 30px auto;
-	max-width: 140px;
+.interior-site {
+	margin: 0 auto 30px auto;
+	font-size: 24px;
+	color: #FFC500;
 }
 
 #home {
@@ -82,7 +84,11 @@ iframe {
 }
 
 .brisa h6 {
-	color: #67bb00;
+	color: #292929;
+}
+
+.brisa p {
+	color: #292929;
 }
 
 .onedegree .page-img video {
@@ -91,10 +97,6 @@ iframe {
 
 .onedegree p {
 	margin-top: 0;
-}
-
-.brisa p {
-	color: #67bb00;
 }
 
 .onedegree {
@@ -200,7 +202,7 @@ iframe {
 	text-align: center;
 	color: #fff;
 	font-size: 14px;
-	max-width: 600px;
+	max-width: 500px;
 	margin: 20px auto 20px auto;
 }
 
@@ -220,6 +222,7 @@ iframe {
 strong {
 	color: #FFC500;
 	text-decoration: underline;
+	font-weight: 500;
 }
 
 .section {
@@ -265,18 +268,13 @@ strong {
 }
 
 .half-item {
-	max-width: 400px;
-}
-
-.half-item p {
-	max-width: 350px;
+	max-width: 450px;
 }
 
 .half-row {
 	margin: 40px auto 40px auto;
 	justify-content: center;
 }
-
 
 .page-img {
 	justify-content: center;
@@ -288,7 +286,7 @@ strong {
 .page-img img {
 	width: 100%;
 	max-width: 1000px;
-	margin: 30px auto 0 auto;
+	margin: 40px auto 0 auto;
 }
 
 .page-img video {
@@ -320,7 +318,7 @@ p {
 }
 
 .body {
-	font-size: 16px;
+	font-size: 18px;
 }
 
 .tags {
@@ -347,13 +345,14 @@ h1 {
 	color: #fff;
 	margin: 0 0 14px 0;
 	padding: 40px 0 0 0;
+	font-weight: 400;
 }
 
 h2 {
 	margin: 0 auto 20px auto;
 	font-family: "brandon-grotesque",sans-serif;
 	text-align: center;
-	font-weight: 700;
+	font-weight: 600;
 	font-size: 20px;
 	text-align: left;
 	color: grey;
@@ -363,7 +362,7 @@ h2 {
 h3 {
 	font-family: "brandon-grotesque",sans-serif;
 	text-align: left;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 20px;
 	color: #000;
 	margin: 10px 0 0 0;
@@ -371,13 +370,13 @@ h3 {
 }
 
 h4 {
-	font-family: "gitan-latin",sans-serif;
+	font-family: "brandon-grotesque",sans-serif;
 	font-weight: 500;
-	font-size: 40px;
+	font-size: 46px;
 	color: #fff;
 	text-align: left;
 	margin: 40px 0 20px 0;
-	line-height: 110%;
+	line-height: 100%;
 }
 
 a:hover h4 {
@@ -399,14 +398,14 @@ h5:hover {
 }
 
 h6 {
-	font-family: "gitan-latin",sans-serif;
+	font-family: "brandon-grotesque",sans-serif;
 	text-align: center;
 	font-weight: 500;
 	font-size: 40px;
 	color: #fff;
 	margin: 0 auto;
 	max-width: 600px;
-	line-height: 130%;
+	line-height: 120%;
 }
 
 a {

@@ -45,7 +45,7 @@ iframe {
 #header {
 	width: 100%;
 	text-align: center;
-	margin: 0 auto 50px auto;
+	margin: 0 auto;
 	padding: 0 0 50px 0;
 }
 
@@ -88,9 +88,48 @@ iframe {
 #container {
 	max-width: 1200px;
 	width: 90%;
-	margin-right: auto;
-	margin-left: auto;
+	margin: 0 auto;
 	overflow: hidden;
+}
+
+.image-container {
+	max-width: 1200px;
+	width: 95%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.image-bg {
+	background-color: #c4dee6;
+	padding: 60px 0 60px 0;
+}
+
+.process-container {
+	max-width: 1200px;
+	width: 95%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 60px 0 40px 0;
+}
+
+.desc-container {
+	max-width: 600px;
+	width: 95%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 60px 0 60px 0;
+}
+
+.desc-container h6 {
+	color: #000;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.desc-container p {
+	font-size: 18px;
+	margin: 10px auto 0 auto;
+	color: #464646;
 }
 
 #featured-container {
@@ -110,7 +149,7 @@ iframe {
 	color: #fff;
 	font-size: 14px;
 	max-width: 600px;
-	margin: 20px auto 0 auto;
+	margin: 20px auto 20px auto;
 }
 
 .head-p {
@@ -132,7 +171,7 @@ strong {
 }
 
 .section {
-	margin: 0 0 60px 0;
+	margin: 60px 0 0 0;
 }
 
 .row {
@@ -182,7 +221,7 @@ strong {
 }
 
 .half-row {
-	margin: 0 auto 40px auto;
+	margin: 40px auto 40px auto;
 	justify-content: center;
 }
 
@@ -190,10 +229,13 @@ strong {
 .page-img {
 	justify-content: center;
 	text-align: center;
+	max-width: 1000px;
+	align-items: center;
+	margin: 0 auto;
 }
 .page-img img {
 	width: 100%;
-	max-width: 800px;
+	max-width: 1000px;
 	margin: 30px auto 0 auto;
 }
 
@@ -312,16 +354,6 @@ h6 {
 	max-width: 600px;
 }
 
-.header-black {
-	color: #000;
-	font-size: 30px;
-	margin-bottom: 20px;
-}
-
-.problem {
-	margin: 40px auto 40px auto;
-}
-
 .problem p {
 	font-size: 18px;
 	text-align: center;
@@ -365,6 +397,10 @@ h4 {
 		padding: 0 15px;
 	}
 
+	#container {
+		max-width: 450px;
+	}
+
 	h1 {
 		font-size: 22px;
 	}
@@ -398,9 +434,14 @@ h4 {
 
 	.row {
 		flex-direction: column;
+		align-items: center;
 	}
 
 	.row .item {
+		width: 100%;
+	}
+
+	.item .box * {
 		width: 100%;
 	}
 

@@ -560,5 +560,9 @@ h4 {
 	.header-black {
 		font-size: 26px;
 	}
+
+	.onedegree .page-img video {
+    	margin: 10px auto;
+	}
 		
 }

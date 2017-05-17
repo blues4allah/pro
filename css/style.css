@@ -35,6 +35,12 @@ body {
 	color: #FFC500;
 }
 
+.interior-site-white {
+	margin: 0 auto 30px auto;
+	font-size: 24px;
+	color: #fff;
+}
+
 #home {
 	align-self: flex-start;
 	font-family: georgia;
@@ -104,19 +110,19 @@ iframe {
 }
 
 .fanbridge {
-	background-color: #f4f4f4;
+	background-color: #942e34;
 }
 
 .fanbridge h6 {
-	color: #b11110;
+	color: #fff;
 }
 
 .fanbridge p {
-	color: #b11110;
+	color: #fff;
 }
 
 .apg {
-	background-color: #cfcdc1;
+	background-color: #e8e5d3;
 }
 
 .apg h6 {
@@ -167,7 +173,7 @@ iframe {
 }
 
 .desc-container {
-	max-width: 600px;
+	max-width: 580px;
 	width: 90%;
 	margin: 0 auto;
 	overflow: hidden;

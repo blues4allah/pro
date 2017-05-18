@@ -3,7 +3,10 @@
     font-size: 18px;
     z-index: 100;
     font-weight: 300;
+}
 
+#nav a:hover {
+	text-decoration: underline;
 }
 
 ul {
@@ -35,6 +38,10 @@ body {
 	color: #FFC500;
 }
 
+.interior-header a:hover {
+	text-decoration: underline;
+}
+
 .interior-white {
 	color: #fff;
 }
@@ -57,6 +64,10 @@ iframe {
 
 .onedegreebrand {
 	background-color: #834498;
+}
+
+.onedegreebrand .page-img img {
+	max-width: 800px;
 }
 
 .home {
@@ -93,6 +104,14 @@ iframe {
 
 .brisa p {
 	color: #292929;
+}
+
+.coyote {
+	background-color: #160b35;
+}
+
+.coyote .page-img img {
+	max-width: 600px;
 }
 
 .onedegree .page-img video {
@@ -272,7 +291,7 @@ strong {
 }
 
 .half-item {
-	max-width: 450px;
+	max-width: 420px;
 }
 
 .half-row {
@@ -326,7 +345,7 @@ p {
 }
 
 .tags {
-	margin-top: 8px;
+	margin-top: 6px;
 	text-align: left;
 }
 

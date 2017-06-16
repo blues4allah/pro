@@ -70,6 +70,10 @@ iframe {
 	max-width: 800px;
 }
 
+.apg .page-img img {
+	max-width: 800px;
+}
+
 .home {
 	background-color: #03799c;
 }

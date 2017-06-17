@@ -181,6 +181,12 @@ iframe {
 	padding: 60px 0 60px 0;
 }
 
+.image-bg-about {
+	background-color: #1e232c;
+	padding: 0px 0 60px 0;
+	margin-top: 100px;
+}
+
 .image-bg {
 	padding: 0 0 60px 0;
 }
@@ -324,10 +330,35 @@ strong {
 
 .logos img {
 	width: 100%;
-	max-width: 700px;
+	max-width: 600px;
 	margin: 50px auto 100px auto;
 	text-align: center;
 	display: flex;
+}
+
+.about img {
+	width: 100%;
+	max-width: 600px;
+	margin: 40px auto 40px auto;
+	text-align: center;
+	display: flex;
+}
+
+.about h6 {
+	text-align: center;
+	color: #fff;
+}
+
+.about h2 {
+	text-align: center;
+	color: #fff;
+	opacity: .8;
+}
+
+.about p {
+	text-align: center;
+	color: #fff;
+	opacity: .9;
 }
 
 .row .item {
@@ -590,5 +621,15 @@ h4 {
 	.onedegree .page-img video {
     	margin: 10px auto;
 	}
-		
+
+	.about h6 {
+	text-align: center;
+	color: #fff;
+	}
+
+	.about h2 {
+	text-align: center;
+	color: #fff;
+	opacity: .8;
+	}		
 }

@@ -182,7 +182,7 @@ iframe {
 }
 
 .image-bg-about {
-	background-color: #1e232c;
+	background-color: #1f2c42;
 	padding: 0px 0 60px 0;
 	margin-top: 100px;
 }
@@ -331,9 +331,18 @@ strong {
 .logos img {
 	width: 100%;
 	max-width: 600px;
-	margin: 50px auto 100px auto;
+	margin: 50px auto 80px auto;
 	text-align: center;
 	display: flex;
+}
+
+.logos iframe {
+	width: 100%;
+	margin: 0 auto 100px auto;
+	text-align: center;
+	display: flex;
+	max-width: 1000px;
+	height: 800px;
 }
 
 .about img {
@@ -631,5 +640,10 @@ h4 {
 	text-align: center;
 	color: #fff;
 	opacity: .8;
-	}		
+	}
+
+	.logos iframe {
+	margin: 0 auto 100px auto;
+	height: 400px;
+	}
 }

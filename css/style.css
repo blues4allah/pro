@@ -205,6 +205,7 @@ iframe {
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 80px 0 70px 0;
+	text-align: center;
 }
 
 .desc-container h6 {
@@ -217,6 +218,13 @@ iframe {
 	font-size: 18px;
 	margin: 10px auto 0 auto;
 	color: #464646;
+	text-align: left;
+}
+
+.desc-container img {
+	max-width: 580px;
+	width: 90%;
+	margin: 20px auto 40px auto;
 }
 
 #featured-container {

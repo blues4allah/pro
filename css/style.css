@@ -225,6 +225,8 @@ iframe {
 	max-width: 580px;
 	width: 90%;
 	margin: 20px auto 40px auto;
+	border: 2px solid #e2e2e2;
+	border-radius: 8px;
 }
 
 #featured-container {

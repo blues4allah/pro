@@ -225,8 +225,6 @@ iframe {
 	max-width: 580px;
 	width: 90%;
 	margin: 20px auto 40px auto;
-	border: 2px solid #e2e2e2;
-	border-radius: 8px;
 }
 
 #featured-container {
@@ -326,10 +324,19 @@ strong {
 	align-items: center;
 	margin: 0 auto;
 }
+
 .page-img img {
 	width: 100%;
 	max-width: 1000px;
 	margin: 40px auto 0 auto;
+}
+
+.page-img h2 {
+	margin-bottom: 0;
+}
+
+.before {
+	padding-bottom: 40px;
 }
 
 .page-img video {

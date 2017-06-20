@@ -370,6 +370,29 @@ strong {
 	display: flex;
 }
 
+.about #social-about {
+	margin: 0 auto 0 auto;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+
+.about #social-about .social-item {
+	display: inline;
+    width: calc(100% - 50px);
+    text-align: center;
+}
+
+.about #social-about .social-item img {
+	max-width: 32px;
+	margin: 50px auto 0 auto;
+}
+
+.about #social-about .social-item p {
+	color: #ffc500;
+}
+
 .about h6 {
 	text-align: center;
 	color: #fff;

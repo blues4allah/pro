@@ -423,6 +423,7 @@ p {
 	line-height: 130%;
 	color: grey;
 	font-weight: 400;
+	letter-spacing: .2px;
 }
 
 .body {
